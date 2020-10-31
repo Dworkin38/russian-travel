@@ -10,7 +10,9 @@
   .footer__item {
     margin: 0 auto 32px;
     width: 100%;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .footer__item:last-child {
@@ -21,7 +23,7 @@
 @media screen and (max-width: 320px) {
   .footer__item {
     margin: 0 0 32px;
-    text-align: left;
+    justify-content: flex-start;
   }
   
   .footer__item:last-child {
