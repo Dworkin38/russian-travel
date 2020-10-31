@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    max-width: calc(720px - 432*((768px - 100vw)/448)); 
+    max-width: calc(720px - 432*((768px - 100vw)/448));
     font-size: calc(96px - 56*((768px - 100vw)/448));
     line-height: calc(100px - 56*((768px - 100vw)/448));
   }

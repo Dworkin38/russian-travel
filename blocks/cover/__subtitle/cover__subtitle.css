@@ -9,8 +9,8 @@
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    max-width: calc(360px - 72*((768px - 100vw)/448)); 
-    font-size: calc(18px - 4*((768px - 100vw)/448)); 
-    line-height: calc(22px - 6*((768px - 100vw)/448)); 
-  } 
+    max-width: calc(360px - 72*((768px - 100vw)/448));
+    font-size: calc(18px - 4*((768px - 100vw)/448));
+    line-height: calc(22px - 6*((768px - 100vw)/448));
+  }
 }
