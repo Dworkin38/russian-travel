@@ -1,0 +1,17 @@
+.header__logo-link {
+  width: 176px;
+  height: 52px;
+  opacity: 1;
+  transition: opacity .5s linear;
+}
+
+.header__logo-link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo-link {
+    width: 142px;
+    height: 42px;
+  }
+}

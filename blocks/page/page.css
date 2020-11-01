@@ -1,39 +1,15 @@
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  src: url(../../font/Inter-Regular.woff2) format("woff2"),
-       url(../../font/Inter-Regular.woff) format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  src: url(../../font/Inter-Black.woff2) format("woff2"),
-       url(../../font/Inter-Black.woff) format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 700;
-  src: url(../../font/Inter-Bold.woff2) format("woff2"),
-       url(../../font/Inter-Bold.woff) format("woff");
-}
-
 .page {
-  width: 100%;
+  min-width: 320px;
   padding: 28px 0 24px;
   background-color: #2A2C2F;
   font-family: 'Inter', 'Arial', sans-serif;
   color: #FFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (max-width: 320px) {
   .page {
-    padding: 16px 0 24px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;  
+    padding: 16px 0 24px;  
   }
 }

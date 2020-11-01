@@ -1,9 +1,0 @@
-.place__break {
-  display: none;
-}
-
-@media screen and (max-width: 320px) {
-  .place__break {
-    display: inline;
-  }
-}
